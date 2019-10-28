@@ -1,0 +1,49 @@
+{
+  "name": "react-hover-slideshow",
+  "version": "1.0.0",
+  "description": "Iterates through an image slideshow based on cursor position",
+  "main": "dist/react-hover-slideshow.cjs.js",
+  "module": "dist/react-hover-slideshow.esm.js",
+  "scripts": {
+    "build": "rollup --config",
+    "start": "start-storybook",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcalhoun/react-hover-slideshow.git"
+  },
+  "keywords": [
+    "react",
+    "hover",
+    "slideshow"
+  ],
+  "author": "David Calhoun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcalhoun/react-hover-slideshow/issues"
+  },
+  "homepage": "https://github.com/davidcalhoun/react-hover-slideshow#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/react": "^5.2.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-transition-group": "^4.3.0",
+    "rollup": "^1.25.2"
+  },
+  "dependencies": {
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "react": ">=0.16.8"
+  },
+  "optionalDependencies": {
+    "react-transition-group": "^4.3.0"
+  }
+}
