@@ -1,14 +1,11 @@
 import { useState } from "react";
+import { getPercentInt } from "./utils";
 
-const getPercentInt = (num, total) => {
-	// Check for division by zero.
-	if (total < 1) {
-		return 0;
-	}
-
-	return Math.floor((num / total) * 100);
-}
-
+/**
+ * React hook to determine a user's x,y "progress" over an element.
+ * Top left corner: 0, 0
+ * Bottom right corner: 100, 100
+ */
 const getCursorProgress = (syntheticEvent, axis, boundingClientRect) => {
 	return axis === "x"
 		? getPercentInt(

@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import useCursorProgress from "./useCursorProgress";
+import { uuidv4, getIndexFromProgress } from "./utils";
 
-const getIndexFromProgress = (progress, total) => {
-	const index = Math.ceil(total * (progress / 100));
-	const zeroIndex = index !== 0 ? index - 1 : index;
-
-	return zeroIndex;
-};
-
+/**
+ * React Hook that cycles through an image slideshow when the user hovers.
+ * Example with a 2 image slideshow:
+ * * Cursor on the left half of the element, first image is shown.
+ * * Cursor on the right half of the element, second image is shown.
+ */
 export default function useHoverSlideshow(images) {
 	const initialState = {
 		currentImage: images[0],
@@ -37,8 +37,13 @@ export default function useHoverSlideshow(images) {
 			setImageState({
 				currentImageIndex: imageIndex,
 				currentImage: images[imageIndex],
-				currentImageEventId:
-					Date.now() + Math.floor(Math.random() * 10000),
+				/**
+				 * "Image Events".
+				 * In order to properly animate between images, we need to create unique IDs
+				 * every time the user mouses into a new image zone.  UUID may be overkill,
+				 * but should be fine as long as it's performant enough.
+				 */
+				currentImageEventId: uuidv4(),
 				previousImageIndex: currentImageIndex,
 				previousImage:
 					typeof previousImageIndex !== "null"
@@ -50,11 +55,12 @@ export default function useHoverSlideshow(images) {
 	}
 
 	useEffect(() => {
+		// Updates image based on user's x,y cursor over the image.
 		setImage();
 	}, [xProgress, yProgress]);
 
 	useEffect(() => {
-		// Preload all images.
+		// Preloads all images.
 		images.map(src => {
 			const image = new Image();
 			image.src = src;
