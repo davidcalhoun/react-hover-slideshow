@@ -1,27 +1,31 @@
 .container {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
 }
 
 .container img {
 	width: 300px;
 }
 
-.container-enter {
+.imageContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.crossfade-enter {
 	opacity: 0;
 }
 
-.container-enter-active {
+.crossfade-enter-active {
 	opacity: 1;
 	transition: opacity 250ms ease-in-out;
 }
 
-.container-exit {
+.crossfade-exit {
   
 }
 
-.container-exit-active {
+.crossfade-exit-active {
 	opacity: 0;
 	transition: opacity 250ms ease-in-out;
 }

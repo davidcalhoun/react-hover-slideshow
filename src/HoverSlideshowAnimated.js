@@ -15,13 +15,22 @@ export default function HoverSlideshowAnimated(props) {
 				// onMouseLeave={setImage}
 				onMouseMove={setImage}
 			>
-				<TransitionGroup>
+				<TransitionGroup className={ styles.container }>
 					<CSSTransition
 						timeout={250}
-						classNames={styles.container}
+					    classNames={{
+					        appear: styles['crossfade-appear'],
+					        appearActive: styles['crossfade-appear-active'],
+					        enter: styles['crossfade-enter'],
+					        enterActive: styles['crossfade-enter-active'],
+					        enterDone: styles['crossfade-enter-done'],
+					        exit: styles['crossfade-exit'],
+					        exitActive: styles['crossfade-exit-active'],
+					        exitDone: styles['crossfade-exit-done']
+					    }}
 						key={currentImageEventId}
 					>
-						<div>
+						<div className={ styles.imageContainer }>
 							<source srcSet={currentImage} media="(min-width: 800px)" />
 							<img src={currentImage} />
 						</div>
