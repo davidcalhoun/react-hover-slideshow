@@ -28,9 +28,15 @@ export default function useHoverSlideshow(images) {
 	const [[xProgress, yProgress], setCursorProgress] = useCursorProgress();
 
 	function setImage(syntheticEvent) {
-		setCursorProgress(syntheticEvent);
-
-		const imageIndex = getIndexFromProgress(xProgress, images.length);
+		let imageIndex;
+		if (syntheticEvent === 'reset') {
+			// cursor "out" event
+			imageIndex = 0;
+		} else {
+			// cursor move event
+			setCursorProgress(syntheticEvent);
+			imageIndex = getIndexFromProgress(xProgress, images.length)
+		}
 
 		const indexChanged = imageIndex !== currentImageIndex;
 		if (indexChanged) {
@@ -75,6 +81,9 @@ export default function useHoverSlideshow(images) {
 			previousImageIndex,
 			currentImageEventId
 		},
-		setImage
+		{
+			updateHoverSlideshow: setImage,
+			resetHoverSlideshow: () => setImage("reset")
+		}
 	];
 }

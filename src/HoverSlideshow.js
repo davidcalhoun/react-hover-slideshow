@@ -5,14 +5,14 @@ import useHoverSlideshow from "./useHoverSlideshow";
 export default function HoverSlideshow(props) {
 	let [
 		{ currentImage, currentImageIndex, previousImageIndex },
-		setImage
+		{ updateHoverSlideshow, resetHoverSlideshow }
 	] = useHoverSlideshow(props.images);
 
 	return (
 		<div>
 			<picture
-				// onMouseLeave={setImage}
-				onMouseMove={setImage}
+				onMouseLeave={resetHoverSlideshow}
+				onMouseMove={updateHoverSlideshow}
 			>
 				<source srcSet={currentImage} media="(min-width: 800px)" />
 				<img src={currentImage} key={currentImage} />

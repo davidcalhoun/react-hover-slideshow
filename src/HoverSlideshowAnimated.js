@@ -6,14 +6,14 @@ import styles from "./HoverSlideshowAnimated.css";
 export default function HoverSlideshowAnimated(props) {
 	let [
 		{ currentImage, currentImageIndex, previousImage, currentImageEventId, previousImageEventId },
-		setImage
+		{ updateHoverSlideshow, resetHoverSlideshow }
 	] = useHoverSlideshow(props.images);
 
 	return (
 		<a href="https://www.google.com">
 			<picture
-				// onMouseLeave={setImage}
-				onMouseMove={setImage}
+				onMouseLeave={resetHoverSlideshow}
+				onMouseMove={updateHoverSlideshow}
 			>
 				<TransitionGroup className={ styles.container }>
 					<CSSTransition
