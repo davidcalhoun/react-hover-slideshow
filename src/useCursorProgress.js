@@ -4,7 +4,7 @@ import { getPercentInt } from "./utils";
 const movementTypes = ["mousemove", "touchmove"];
 
 /**
- * React hook to determine a user's x,y "progress" over an element.
+ * React hook to determine a user cursor's x or y "progress" while passing over an element.
  * Top left corner: 0, 0
  * Bottom right corner: 100, 100
  */
