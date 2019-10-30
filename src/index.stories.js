@@ -1,6 +1,6 @@
 import React from 'react';
-import HoverSlideshow from './';
-import HoverSlideshowAnimated from './animated';
+import HoverSlideshow from './HoverSlideshow';
+import HoverSlideshowAnimated from './HoverSlideshowAnimated';
 
 export default { title: 'HoverSlideshow' };
 

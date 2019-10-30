@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
-import "./animations.css";
+import styles from "./HoverSlideshowAnimated.css";
 
 export default function HoverSlideshowAnimated(props) {
 	let [
@@ -18,7 +18,7 @@ export default function HoverSlideshowAnimated(props) {
 				<TransitionGroup>
 					<CSSTransition
 						timeout={250}
-						classNames="item"
+						classNames={styles.container}
 						key={currentImageEventId}
 					>
 						<div>

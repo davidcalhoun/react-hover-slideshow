@@ -1,0 +1,27 @@
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.container img {
+	width: 300px;
+}
+
+.container-enter {
+	opacity: 0;
+}
+
+.container-enter-active {
+	opacity: 1;
+	transition: opacity 250ms ease-in-out;
+}
+
+.container-exit {
+  
+}
+
+.container-exit-active {
+	opacity: 0;
+	transition: opacity 250ms ease-in-out;
+}
