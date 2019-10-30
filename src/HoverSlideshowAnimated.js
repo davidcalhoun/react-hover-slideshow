@@ -1,13 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
 
 export default function HoverSlideshowAnimated(props) {
+	const { images } = props;
 	let [
-		{ currentImage, currentImageIndex, previousImage, currentImageEventId, previousImageEventId },
+		{
+			currentImage,
+			currentImageEventId
+		},
 		{ updateHoverSlideshow, resetHoverSlideshow }
-	] = useHoverSlideshow(props.images);
+	] = useHoverSlideshow(images);
 
 	return (
 		<a href="https://www.google.com">
@@ -15,23 +20,26 @@ export default function HoverSlideshowAnimated(props) {
 				onMouseLeave={resetHoverSlideshow}
 				onMouseMove={updateHoverSlideshow}
 			>
-				<TransitionGroup className={ styles.container }>
+				<TransitionGroup className={styles.container}>
 					<CSSTransition
 						timeout={250}
-					    classNames={{
-					        appear: styles['crossfade-appear'],
-					        appearActive: styles['crossfade-appear-active'],
-					        enter: styles['crossfade-enter'],
-					        enterActive: styles['crossfade-enter-active'],
-					        enterDone: styles['crossfade-enter-done'],
-					        exit: styles['crossfade-exit'],
-					        exitActive: styles['crossfade-exit-active'],
-					        exitDone: styles['crossfade-exit-done']
-					    }}
+						classNames={{
+							appear: styles["crossfade-appear"],
+							appearActive: styles["crossfade-appear-active"],
+							enter: styles["crossfade-enter"],
+							enterActive: styles["crossfade-enter-active"],
+							enterDone: styles["crossfade-enter-done"],
+							exit: styles["crossfade-exit"],
+							exitActive: styles["crossfade-exit-active"],
+							exitDone: styles["crossfade-exit-done"]
+						}}
 						key={currentImageEventId}
 					>
-						<div className={ styles.imageContainer }>
-							<source srcSet={currentImage} media="(min-width: 800px)" />
+						<div className={styles.imageContainer}>
+							<source
+								srcSet={currentImage}
+								media="(min-width: 800px)"
+							/>
 							<img src={currentImage} />
 						</div>
 					</CSSTransition>
@@ -40,3 +48,12 @@ export default function HoverSlideshowAnimated(props) {
 		</a>
 	);
 }
+
+HoverSlideshowAnimated.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.string)
+};
+
+HoverSlideshowAnimated.defaultProps = {
+  images: []
+};
+

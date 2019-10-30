@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { CSSTransition } from "react-transition-group";
+import React from "react";
 import useHoverSlideshow from "./useHoverSlideshow";
 
 export default function HoverSlideshow(props) {
 	let [
-		{ currentImage, currentImageIndex, previousImageIndex },
+		{ currentImage },
 		{ updateHoverSlideshow, resetHoverSlideshow }
 	] = useHoverSlideshow(props.images);
 
@@ -20,3 +19,11 @@ export default function HoverSlideshow(props) {
 		</div>
 	);
 }
+
+HoverSlideshow.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.string)
+};
+
+HoverSlideshow.defaultProps = {
+  images: []
+};
