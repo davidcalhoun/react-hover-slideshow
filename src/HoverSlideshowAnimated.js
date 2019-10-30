@@ -22,7 +22,7 @@ export default function HoverSlideshowAnimated(props) {
 			>
 				<TransitionGroup className={styles.container}>
 					<CSSTransition
-						timeout={250}
+						timeout={300}
 						classNames={{
 							appear: styles["crossfade-appear"],
 							appearActive: styles["crossfade-appear-active"],

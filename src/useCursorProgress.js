@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { getPercentInt } from "./utils";
 
+const movementTypes = ["mousemove", "touchmove"];
+
 /**
  * React hook to determine a user's x,y "progress" over an element.
  * Top left corner: 0, 0
@@ -29,31 +31,27 @@ export default function useCursorProgress() {
 	);
 
 	function setCursorProgress(syntheticEvent) {
-		if (syntheticEvent && syntheticEvent.type === "mousemove") {
-			// Use cached boundingClientRect when available to avoid DOM hits.
-			// const maybeCachedRect =
-			// 	boundingClientRect ||
-			// 	syntheticEvent.target.getBoundingClientRect();
-
-			// TODO: needs to be updated constantly if images are not the same size.
-			const maybeCachedRect = syntheticEvent.target.getBoundingClientRect();
-
-			setProgress({
-				xProgress: getCursorProgress(
-					syntheticEvent,
-					"x",
-					maybeCachedRect
-				),
-				yProgress: getCursorProgress(
-					syntheticEvent,
-					"y",
-					maybeCachedRect
-				),
-				boundingClientRect: maybeCachedRect
-			});
-		} else {
-			//setProgress(initialState);
+		if (!syntheticEvent || !movementTypes.includes(syntheticEvent.type)) {
+			return;
 		}
+
+		// Note: this hits the DOM a lot, but seems performant enough.  If all images are
+		// equally sized, this can possibly be cached in the future.
+		const maybeCachedRect = syntheticEvent.target.getBoundingClientRect();
+
+		setProgress({
+			xProgress: getCursorProgress(
+				syntheticEvent,
+				"x",
+				maybeCachedRect
+			),
+			yProgress: getCursorProgress(
+				syntheticEvent,
+				"y",
+				maybeCachedRect
+			),
+			boundingClientRect: maybeCachedRect
+		});
 	}
 
 	return [[xProgress, yProgress], setCursorProgress];
