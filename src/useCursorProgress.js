@@ -5,18 +5,30 @@ const movementTypes = ["mousemove", "touchmove"];
 
 /**
  * React hook to determine a user cursor's x or y "progress" while passing over an element.
- * Top left corner: 0, 0
- * Bottom right corner: 100, 100
+ * Top left corner: x: 0, y: 0
+ * Bottom right corner: x: 100, y: 100
  */
 const getCursorProgress = (syntheticEvent, axis, boundingClientRect) => {
-	return axis === "x"
+	let clientX;
+	let clientY;
+	if (syntheticEvent.touches && syntheticEvent.touches[0]) {
+		// touch event
+		clientX = syntheticEvent.touches[0].clientX;
+		clientY = syntheticEvent.touches[0].clientY;
+	} else {
+		// mouse event
+		clientX = syntheticEvent.clientX;
+		clientY = syntheticEvent.clientY;
+	}
+
+	return axis === "y"
 		? getPercentInt(
-				syntheticEvent.clientX - boundingClientRect.x,
-				boundingClientRect.width
+				clientY - boundingClientRect.y,
+				boundingClientRect.height
 		  )
 		: getPercentInt(
-				syntheticEvent.clientY - boundingClientRect.y,
-				boundingClientRect.height
+				clientX - boundingClientRect.x,
+				boundingClientRect.width
 		  );
 };
 
@@ -40,20 +52,11 @@ export default function useCursorProgress() {
 		const maybeCachedRect = syntheticEvent.target.getBoundingClientRect();
 
 		setProgress({
-			xProgress: getCursorProgress(
-				syntheticEvent,
-				"x",
-				maybeCachedRect
-			),
-			yProgress: getCursorProgress(
-				syntheticEvent,
-				"y",
-				maybeCachedRect
-			),
+			xProgress: getCursorProgress(syntheticEvent, "x", maybeCachedRect),
+			yProgress: getCursorProgress(syntheticEvent, "y", maybeCachedRect),
 			boundingClientRect: maybeCachedRect
 		});
 	}
 
 	return [[xProgress, yProgress], setCursorProgress];
 }
-

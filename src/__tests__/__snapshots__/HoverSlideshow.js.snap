@@ -1,0 +1,817 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`100 pixels imageSet1 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="01.jpg"
+    />
+    <img
+      src="01.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="03.jpg"
+    />
+    <img
+      src="03.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="06.jpg"
+    />
+    <img
+      src="06.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="12.jpg"
+    />
+    <img
+      src="12.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis 0 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="a.jpg"
+    />
+    <img
+      src="a.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis 20 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="b.jpg"
+    />
+    <img
+      src="b.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis 50 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="d.jpg"
+    />
+    <img
+      src="d.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis 100 percent 1`] = `
+<div>
+  <picture
+    aria-label="Test slideshow"
+    role="img"
+  >
+    <source
+      media="(min-width: 800px)"
+      srcset="g.jpg"
+    />
+    <img
+      src="g.jpg"
+    />
+  </picture>
+</div>
+`;

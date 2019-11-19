@@ -1,21 +1,24 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
 
 export default function HoverSlideshowAnimated(props) {
-	const { images } = props;
+	const { images, style, className, href } = props;
 	let [
-		{
-			currentImage,
-			currentImageEventId
-		},
+		{ currentImage, currentImageEventId },
 		{ updateHoverSlideshow, resetHoverSlideshow }
 	] = useHoverSlideshow(images);
 
+	const containerProps = {
+		href,
+		style,
+		className
+	};
+
 	return (
-		<a href="https://www.google.com">
+		<a {...containerProps}>
 			<picture
 				onMouseLeave={resetHoverSlideshow}
 				onMouseMove={updateHoverSlideshow}
@@ -36,10 +39,6 @@ export default function HoverSlideshowAnimated(props) {
 						key={currentImageEventId}
 					>
 						<div className={styles.imageContainer}>
-							<source
-								srcSet={currentImage}
-								media="(min-width: 800px)"
-							/>
 							<img src={currentImage} />
 						</div>
 					</CSSTransition>
@@ -50,10 +49,12 @@ export default function HoverSlideshowAnimated(props) {
 }
 
 HoverSlideshowAnimated.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.string)
+	images: PropTypes.arrayOf(PropTypes.string),
+	style: PropTypes.object,
+	className: PropTypes.string,
+	href: PropTypes.string
 };
 
 HoverSlideshowAnimated.defaultProps = {
-  images: []
+	images: []
 };
-

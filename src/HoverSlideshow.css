@@ -1,0 +1,7 @@
+.container {
+	touch-action: none;
+	display: inline-flex;
+	background-repeat: no-repeat;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}

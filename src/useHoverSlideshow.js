@@ -8,7 +8,7 @@ import { uuidv4, getIndexFromProgress } from "./utils";
  * * Cursor on the left half of the element, first image is shown.
  * * Cursor on the right half of the element, second image is shown.
  */
-export default function useHoverSlideshow(images) {
+export default function useHoverSlideshow(images, axis = "horizontal") {
 	const initialState = {
 		currentImage: images[0],
 		previousImage: null,
@@ -28,14 +28,25 @@ export default function useHoverSlideshow(images) {
 	const [[xProgress, yProgress], setCursorProgress] = useCursorProgress();
 
 	function setImage(syntheticEvent) {
+		if (!syntheticEvent) return;
+
+		// Prevent page scroll for touch events
+		const hasTouch = syntheticEvent.touches;
+		if (hasTouch && syntheticEvent.preventDefault) {
+			syntheticEvent.preventDefault();
+		}
+
 		let imageIndex;
-		if (syntheticEvent === 'reset') {
+		if (syntheticEvent === "reset") {
 			// cursor "out" event
 			imageIndex = 0;
 		} else {
 			// cursor move event
 			setCursorProgress(syntheticEvent);
-			imageIndex = getIndexFromProgress(xProgress, images.length)
+			imageIndex =
+				axis === "horizontal"
+					? getIndexFromProgress(xProgress, images.length)
+					: getIndexFromProgress(yProgress, images.length);
 		}
 
 		const indexChanged = imageIndex !== currentImageIndex;

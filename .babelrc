@@ -1,9 +1,14 @@
 {
   "presets": [
+    "@babel/preset-react",
     [
-    	"@babel/env", {"modules": false},
+      '@babel/preset-env',
+      {
+        targets: {
+          node: 'current',
+        },
+      },
     ],
-    "@babel/preset-react"
   ],
   "plugins": [
   	"@babel/plugin-proposal-export-default-from"

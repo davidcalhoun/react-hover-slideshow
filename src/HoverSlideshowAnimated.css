@@ -2,14 +2,12 @@
 	position: relative;
 }
 
-.container img {
-	width: 300px;
-}
-
 .imageContainer {
 	position: absolute;
 	top: 0;
 	left: 0;
+	display: flex;
+	max-width: 100%;
 }
 
 .crossfade-enter {
@@ -18,14 +16,10 @@
 
 .crossfade-enter-active {
 	opacity: 1;
-	transition: opacity 250ms ease-in-out;
-}
-
-.crossfade-exit {
-  
+	transition: opacity 150ms ease-in-out;
 }
 
 .crossfade-exit-active {
 	opacity: 0;
-	transition: opacity 250ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
 }
