@@ -11,7 +11,7 @@ See the [Storybook examples](https://davidcalhoun.github.io/react-hover-slidesho
 
 * `npm i --save react-hover-slideshow`
 
-This module also depends on your project already having `react` and `prop-types` as peer dependencies.  If you don't yet have those, you can install them with this:
+This module also depends on your project already having `react` and `prop-types` as peer dependencies.  If you don't yet have those, you can add them as dependencies of your project with this:
 
 * `npm i --save react prop-types`
 
@@ -22,7 +22,8 @@ The simplest way to use `react-hover-slideshow` is to use the `HoverSlideshow` c
 import React from "react";
 import { HoverSlideshow } from "react-hover-slideshow";
 
-export default function MyContainerElement(props) {
+// As a function component
+function MyFunctionComponent(props) {
 	const imageURLs = [
 		"https://example.com/1.jpg",
 		"https://example.com/2.jpg",
@@ -38,7 +39,29 @@ export default function MyContainerElement(props) {
 				style={{ width: "400px", height: "400px" }}
 			/>
 		</div>
-	)
+	);
+}
+
+// Or as a class component
+class MyClassComponent extends React.Component {
+	render() {
+		const imageURLs = [
+			"https://example.com/1.jpg",
+			"https://example.com/2.jpg",
+			"https://example.com/3.jpg"
+		];
+
+		return (
+			<div>
+				<h3>My photo album</h3>
+				<HoverSlideshow
+					aria-label="My pretty picture slideshow"
+					images={imageURLs}
+					style={{ width: "400px", height: "400px" }}
+				/>
+			</div>
+		);
+	}
 }
 ```
 
@@ -56,17 +79,13 @@ import PropTypes from "prop-types";
 +import { useHoverSlideshow } from "react-hover-slideshow";
 ```
 
-The hook is used as follows:
+Then simply use that code as a baseline, and tweak what you like!  Here's a quick guide of what's happening in the hook:
 
-```js
-let [
-	// Current image href, which will update on mousemove/touchmove
-	{ currentImage },
-	// Update will recompute currentImage based on the user's cursor
-	// Reset assumes the user is no longer interacting, so it will return to the first (default) image
-	{ updateHoverSlideshow, resetHoverSlideshow }
-] = useHoverSlideshow(images, axis);
-```
+* `currentImage` - determined by figuring out the user's "cursor progress" over an element, then finding the closest match in the `images` array passed in.  For instance, if `images` contains two image hrefs, the first image will display until the user's cursor passes over 50% of the element (where 50% is defined horizontally by default).
+
+* `updateHoverSlideshow` - updates `currentImage` based on `mousemove` and `touchmove` events
+
+* `resetHoverSlideshow` - should be called when the user is no longer interacting with the element (`mouseout` or `touchend`).  Resets by displaying the first image in the array.
 
 # Local development
 1. Clone this repo: `git clone git@github.com:davidcalhoun/react-hover-slideshow.git`
