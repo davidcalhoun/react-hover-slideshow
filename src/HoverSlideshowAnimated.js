@@ -5,7 +5,7 @@ import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
 
 export default function HoverSlideshowAnimated(props) {
-	const { images, style, className, href } = props;
+	const { images, style, className, href, width, height } = props;
 	let [
 		{ currentImage, currentImageEventId },
 		{ updateHoverSlideshow, resetHoverSlideshow }
@@ -22,6 +22,10 @@ export default function HoverSlideshowAnimated(props) {
 			<picture
 				onMouseLeave={resetHoverSlideshow}
 				onMouseMove={updateHoverSlideshow}
+				style={{
+					width,
+					height
+				}}
 			>
 				<TransitionGroup className={styles.container}>
 					<CSSTransition

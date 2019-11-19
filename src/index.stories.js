@@ -23,7 +23,8 @@ export const withDefault = () => (
 	<HoverSlideshow
 		aria-label="Muybridge horse gallop slideshow"
 		images={images}
-		style={{ width: "410px", height: "308px" }}
+		width="410px"
+		height="308px"
 	/>
 );
 export const withVerticalAxis = () => (
@@ -31,14 +32,16 @@ export const withVerticalAxis = () => (
 		axis="vertical"
 		aria-label="Muybridge horse gallop slideshow"
 		images={images}
-		style={{ width: "410px", height: "308px" }}
+		width="410px"
+		height="308px"
 	/>
 );
 export const withCrossfade = () => (
 	<HoverSlideshowAnimated
 		aria-label="Muybridge horse gallop slideshow"
 		images={images}
-		style={{ display: "block", width: "300px" }}
 		href="https://www.google.com/"
+		width="410px"
+		height="308px"
 	/>
 );

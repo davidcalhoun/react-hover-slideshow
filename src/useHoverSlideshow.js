@@ -76,13 +76,22 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 		setImage();
 	}, [xProgress, yProgress]);
 
-	useEffect(() => {
-		// Preloads all images.
-		images.map(src => {
-			const image = new Image();
-			image.src = src;
-		});
-	}, [images]);
+	// useEffect(() => {
+	// 	// Preloads all images.
+
+	// 	// Create a zero-dimension container to hold all preloaded images.  These need to actually
+	// 	// be added to the DOM here due to flickering in Firefox (seen in FF 70).
+	// 	const preloadContainer = document.createElement('div');
+	// 	preloadContainer.style = 'width: 0; height: 0;';
+
+	// 	images.map(src => {
+	// 		const image = new Image();
+	// 		image.src = src;
+	// 		preloadContainer.appendChild(image);
+	// 	});
+
+	// 	document.body.appendChild(preloadContainer)
+	// }, [images]);
 
 	return [
 		{

@@ -4,4 +4,11 @@
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
+	overflow: hidden;
+	position: relative;
+}
+
+.innerContainer {
+	position: relative;
+	white-space: pre;
 }
