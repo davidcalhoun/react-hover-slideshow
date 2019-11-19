@@ -8,7 +8,8 @@
     "build": "rollup --config",
     "start": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
