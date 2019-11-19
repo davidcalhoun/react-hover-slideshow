@@ -11,9 +11,12 @@ See the [Storybook examples](https://davidcalhoun.github.io/react-hover-slidesho
 
 * `npm i --save react-hover-slideshow`
 
+# Peer dependencies
 This module also depends on your project already having `react` and `prop-types` as peer dependencies.  If you don't yet have those, you can add them as dependencies of your project with this:
 
 * `npm i --save react prop-types`
+
+* ⚠️Warning!⚠️ - this code uses [Hooks](https://reactjs.org/docs/hooks-intro.html) under the hood, which was introduced in React 16.8.  This code will not work with older versions of React. 
 
 # Usage
 The simplest way to use `react-hover-slideshow` is to use the `HoverSlideshow` component:
