@@ -1,5 +1,5 @@
 # react-hover-slideshow
-Iterates through an image slideshow based on cursor position.
+Iterates through an image slideshow based on cursor/touch position.
 
 ![Hover slideshow preview](https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/preview.gif)
 
@@ -89,5 +89,6 @@ Then simply use that code as a baseline, and tweak what you like!  Here's a quic
 
 # Local development
 1. Clone this repo: `git clone git@github.com:davidcalhoun/react-hover-slideshow.git`
+1. Navigate to directory: `cd react-hover-slideshow`
 1. Install dev dependencies: `npm i`
 1. Check the `scripts` section in `package.json` for a list of available dev commands.
