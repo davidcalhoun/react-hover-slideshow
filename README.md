@@ -1,6 +1,6 @@
 # react-hover-slideshow
 [![Build Status](https://travis-ci.org/davidcalhoun/react-hover-slideshow.svg?branch=master)](https://travis-ci.org/davidcalhoun/jstoxml)
-[![Downloads][https://img.shields.io/npm/dm/react-hover-slideshow.svg?style=flat-square]][https://www.npmjs.com/package/react-hover-slideshow]
+[![Downloads][downloads-image]][npm-url]
 
 Iterates through an image slideshow based on cursor/touch position.
 
@@ -100,3 +100,7 @@ Then simply use that code as a baseline, and tweak what you like!  Here's a quic
 1. Navigate to directory: `cd react-hover-slideshow`
 1. Install dev dependencies: `npm i`
 1. Check the `scripts` section in `package.json` for a list of available dev commands.
+
+
+[downloads-image]: https://img.shields.io/npm/dm/react-hover-slideshow.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/react-hover-slideshow
