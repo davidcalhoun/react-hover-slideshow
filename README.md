@@ -39,7 +39,8 @@ function MyFunctionComponent(props) {
 			<HoverSlideshow
 				aria-label="My pretty picture slideshow"
 				images={imageURLs}
-				style={{ width: "400px", height: "400px" }}
+				width="400px"
+				height="300px"
 			/>
 		</div>
 	);
@@ -60,7 +61,8 @@ class MyClassComponent extends React.Component {
 				<HoverSlideshow
 					aria-label="My pretty picture slideshow"
 					images={imageURLs}
-					style={{ width: "400px", height: "400px" }}
+					width="400px"
+					height="300px"
 				/>
 			</div>
 		);

@@ -43,6 +43,12 @@ export default function useCursorProgress() {
 	);
 
 	function setCursorProgress(syntheticEvent) {
+		// Prevent page scroll for touch events
+		const hasTouch = syntheticEvent.touches;
+		if (hasTouch && syntheticEvent.preventDefault) {
+			syntheticEvent.preventDefault();
+		}
+
 		if (!syntheticEvent || !movementTypes.includes(syntheticEvent.type)) {
 			return;
 		}

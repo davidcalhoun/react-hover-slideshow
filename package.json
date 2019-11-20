@@ -8,7 +8,7 @@
     "build": "rollup --config",
     "start": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
-    "test": "jest",
+    "test": "jest --verbose",
     "prepare": "npm run build"
   },
   "repository": {
@@ -41,6 +41,7 @@
     "eslint": "^6.6.0",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.18.2",
@@ -61,5 +62,10 @@
   },
   "optionalDependencies": {
     "react-transition-group": "^4.3.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy"
+    }
   }
 }

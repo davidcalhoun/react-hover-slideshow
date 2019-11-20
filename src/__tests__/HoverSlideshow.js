@@ -33,40 +33,59 @@ imageSet2.name = "imageSet2";
 const axes = ["horizontal", "vertical"];
 const imageSets = [imageSet1, imageSet2];
 const dimensions = [100, 200, 233];
+const percentages = [0, 20, 50, 100];
+const eventTypes = ["mousemove", "touchmove"];
 
 dimensions.forEach(pixels => {
-  describe(`${ pixels } pixels`, () => {
+  describe(`${pixels} pixels`, () => {
     imageSets.forEach(images => {
       describe(`${images.name}`, () => {
         axes.forEach(axis => {
           describe(`${axis} axis`, () => {
-            const percentages = [0, 20, 50, 100];
+            eventTypes.forEach(eventType => {
+              describe(`${eventType} event`, () => {
+                percentages.forEach(percent => {
+                  test(`${percent} percent`, async () => {
+                    const { container, getByLabelText } = render(
+                      <HoverSlideshow
+                        axis={axis}
+                        images={images}
+                        aria-label="Test slideshow"
+                        width={`${pixels}px`}
+                        height={`${pixels}px`}
+                      />
+                    );
 
-            percentages.forEach(percent => {
-              test(`${percent} percent`, async () => {
-                const { container, getByLabelText } = render(
-                  <HoverSlideshow axis={axis} images={images} aria-label="Test slideshow" />
-                );
+                    const slideshow = await getByLabelText("Test slideshow");
 
-                const slideshow = getByLabelText("Test slideshow");
+                    slideshow.getBoundingClientRect = () => {
+                      return {
+                        width: pixels,
+                        height: pixels,
+                        x: 0,
+                        y: 0
+                      };
+                    };
 
-                slideshow.getBoundingClientRect = () => {
-                  return {
-                    width: pixels,
-                    height: pixels,
-                    x: 0,
-                    y: 0
-                  };
-                };
+                    const clientXOrYProps =
+                      axis === "horizontal"
+                        ? { clientX: pixels * (percent / 100) }
+                        : { clientY: pixels * (percent / 100) };
 
-                const mouseMoveProps =
-                  axis === "horizontal"
-                    ? { clientX: pixels * (percent / 100) }
-                    : { clientY: pixels * (percent / 100) };
+                    switch (eventType) {
+                      case "touchmove":
+                        fireEvent.touchMove(slideshow, {
+                          touches: [clientXOrYProps]
+                        });
+                        break;
 
-                fireEvent.mouseMove(slideshow, mouseMoveProps);
+                      default:
+                        fireEvent.mouseMove(slideshow, clientXOrYProps);
+                    }
 
-                expect(container).toMatchSnapshot();
+                    expect(container).toMatchSnapshot();
+                  });
+                });
               });
             });
           });

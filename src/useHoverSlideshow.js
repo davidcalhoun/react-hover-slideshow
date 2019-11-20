@@ -25,24 +25,14 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 		},
 		setImageState
 	] = useState(initialState);
-	const [[xProgress, yProgress], setCursorProgress] = useCursorProgress();
+	const [progress, setCursorProgress] = useCursorProgress();
+	let [xProgress, yProgress] = progress;
 
-	function setImage(syntheticEvent) {
-		if (!syntheticEvent) return;
-
-		// Prevent page scroll for touch events
-		const hasTouch = syntheticEvent.touches;
-		if (hasTouch && syntheticEvent.preventDefault) {
-			syntheticEvent.preventDefault();
-		}
-
+	function setImage(shouldReset = false) {
 		let imageIndex;
-		if (syntheticEvent === "reset") {
-			// cursor "out" event
+		if (shouldReset) {
 			imageIndex = 0;
 		} else {
-			// cursor move event
-			setCursorProgress(syntheticEvent);
 			imageIndex =
 				axis === "horizontal"
 					? getIndexFromProgress(xProgress, images.length)
@@ -71,8 +61,8 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 		}
 	}
 
+	// Responds to x,y progress side effects.
 	useEffect(() => {
-		// Updates image based on user's x,y cursor over the image.
 		setImage();
 	}, [xProgress, yProgress]);
 
@@ -85,8 +75,8 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 			currentImageEventId
 		},
 		{
-			updateHoverSlideshow: setImage,
-			resetHoverSlideshow: () => setImage("reset")
+			updateHoverSlideshow: setCursorProgress,
+			resetHoverSlideshow: () => setImage(true)
 		}
 	];
 }

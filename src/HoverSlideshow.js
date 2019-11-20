@@ -4,7 +4,7 @@ import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshow.css";
 
 export default function HoverSlideshow(props) {
-	const { axis, images, width, height, ...otherProps } = props;
+	const { axis, images, width, height, style, ...otherProps } = props;
 
 	let [
 		// Current image href, which will update on mousemove/touchmove
@@ -24,25 +24,20 @@ export default function HoverSlideshow(props) {
 			className={styles.container}
 			style={{
 				width,
-				height
+				height,
+				...style
 			}}
 			{...otherProps}
 		>
 			<div
 				className={styles.innerContainer}
 				style={{
-					transform: `translate3d(-${parseInt(width) *
-						currentImageIndex}px, 0, 0)`
+					transform: `translateX(-${parseInt(width) *
+						currentImageIndex}px)`
 				}}
 			>
 				{images.map((src, index) => {
-					return (
-						<img
-							src={src}
-							key={src}
-							data-is-focused={currentImageIndex === index}
-						/>
-					);
+					return <img src={src} key={src} />;
 				})}
 			</div>
 		</div>
