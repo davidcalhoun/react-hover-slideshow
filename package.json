@@ -9,7 +9,8 @@
     "start": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
     "test": "jest --verbose",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish-minor": "npm version minor && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
