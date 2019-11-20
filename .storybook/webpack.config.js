@@ -7,7 +7,7 @@ module.exports = async ({ config, mode }) => {
     config.module.rules.splice(cssRuleIndex, 1);
   }
 
-  // Make whatever fine-grained changes you need
+  // Tweaks needed for PostCSS and CSS modules.
   config.module.rules.push({
     test: /\.css$/,
     use: [
@@ -27,6 +27,13 @@ module.exports = async ({ config, mode }) => {
       }
     ],
     include: path.resolve(__dirname, '../src'),
+  });
+
+  // Needed for addon-storysource
+  config.module.rules.push({
+    test: /\.stories\.jsx?$/,
+    loaders: [require.resolve('@storybook/source-loader')],
+    enforce: 'pre',
   });
 
   return config;

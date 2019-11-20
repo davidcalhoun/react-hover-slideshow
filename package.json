@@ -8,6 +8,7 @@
     "build": "rollup --config",
     "start": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
+    "storybook-publish": "npm run build-storybook && cp -r .storybook-out/* ../davidcalhoun.github.io/react-hover-slideshow/ && cd ../davidcalhoun.github.io/react-hover-slideshow/",
     "test": "jest --verbose",
     "prepare": "npm run build",
     "publish-minor": "npm version minor && git push && git push --tags && npm publish"
@@ -32,6 +33,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
+    "@storybook/addon-storysource": "^5.2.6",
     "@storybook/react": "^5.2.5",
     "@testing-library/dom": "^6.10.0",
     "@testing-library/jest-dom": "^4.2.0",
