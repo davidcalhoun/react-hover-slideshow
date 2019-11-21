@@ -4,7 +4,7 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -57,7 +57,7 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -110,7 +110,7 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -163,7 +163,7 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -216,7 +216,7 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -269,7 +269,7 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -322,7 +322,7 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -375,7 +375,219 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1100px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-200px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-500px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -428,7 +640,7 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -481,7 +693,7 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -534,7 +746,7 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -587,7 +799,7 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -640,7 +852,7 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -693,7 +905,7 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -746,7 +958,7 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -799,7 +1011,219 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1100px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-200px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-500px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -852,7 +1276,7 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -890,7 +1314,7 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -928,7 +1352,7 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -966,7 +1390,7 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1004,7 +1428,7 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1042,7 +1466,7 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1080,7 +1504,7 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1118,7 +1542,159 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-600px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-100px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-300px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1156,7 +1732,7 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1194,7 +1770,7 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1232,7 +1808,7 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1270,7 +1846,7 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1308,7 +1884,7 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1346,7 +1922,7 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1384,7 +1960,7 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1422,7 +1998,159 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-600px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-100px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 100px; height: 100px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-300px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`100 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 100px; height: 100px;"
   >
@@ -1460,7 +2188,7 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1513,7 +2241,7 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1566,7 +2294,7 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1619,7 +2347,7 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1672,7 +2400,7 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1725,7 +2453,7 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1778,7 +2506,7 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1831,7 +2559,219 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-2200px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-400px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1000px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1884,7 +2824,7 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1937,7 +2877,7 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -1990,7 +2930,7 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2043,7 +2983,7 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2096,7 +3036,7 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2149,7 +3089,7 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2202,7 +3142,7 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2255,7 +3195,219 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-2200px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-400px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1000px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2308,7 +3460,7 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2346,7 +3498,7 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2384,7 +3536,7 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2422,7 +3574,7 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2460,7 +3612,7 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2498,7 +3650,7 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2536,7 +3688,7 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2574,7 +3726,159 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1200px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-200px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-600px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2612,7 +3916,7 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2650,7 +3954,7 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2688,7 +3992,7 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2726,7 +4030,7 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2764,7 +4068,7 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2802,7 +4106,7 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2840,7 +4144,7 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2878,7 +4182,159 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1200px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-200px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 200px; height: 200px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-600px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`200 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 200px; height: 200px;"
   >
@@ -2916,7 +4372,7 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -2969,7 +4425,7 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3022,7 +4478,7 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3075,7 +4531,7 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3128,7 +4584,7 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3181,7 +4637,7 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3234,7 +4690,7 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3287,7 +4743,219 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-2563px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-466px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1165px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3340,7 +5008,7 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3393,7 +5061,7 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3446,7 +5114,7 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3499,7 +5167,7 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3552,7 +5220,7 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3605,7 +5273,7 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3658,7 +5326,7 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3711,7 +5379,219 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-2563px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-466px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1165px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3764,7 +5644,7 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3802,7 +5682,7 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3840,7 +5720,7 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3878,7 +5758,7 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3916,7 +5796,7 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3954,7 +5834,7 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -3992,7 +5872,7 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4030,7 +5910,159 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1398px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-233px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-699px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4068,7 +6100,7 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4106,7 +6138,7 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4144,7 +6176,7 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4182,7 +6214,7 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4220,7 +6252,7 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4258,7 +6290,7 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4296,7 +6328,7 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4334,7 +6366,7 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
 <div>
   <div
     aria-label="Test slideshow"
-    class="container"
+    class="container "
     role="img"
     style="width: 233px; height: 233px;"
   >
@@ -4362,6 +6394,211 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
       />
       <img
         src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-233px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-699px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`233 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
+<div>
+  <div
+    aria-label="Test slideshow"
+    class="container "
+    role="img"
+    style="width: 233px; height: 233px;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-1398px);"
+    >
+      <img
+        src="a.jpg"
+      />
+      <img
+        src="b.jpg"
+      />
+      <img
+        src="c.jpg"
+      />
+      <img
+        src="d.jpg"
+      />
+      <img
+        src="e.jpg"
+      />
+      <img
+        src="f.jpg"
+      />
+      <img
+        src="g.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Custom props 1 1`] = `
+<div>
+  <div
+    aria-label="Foo"
+    class="container fooClass"
+    role="someRole"
+    style="width: 50px; height: 50px; display: inline-flex;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        src="01.jpg"
+      />
+      <img
+        src="02.jpg"
+      />
+      <img
+        src="03.jpg"
+      />
+      <img
+        src="04.jpg"
+      />
+      <img
+        src="05.jpg"
+      />
+      <img
+        src="06.jpg"
+      />
+      <img
+        src="07.jpg"
+      />
+      <img
+        src="08.jpg"
+      />
+      <img
+        src="09.jpg"
+      />
+      <img
+        src="10.jpg"
+      />
+      <img
+        src="11.jpg"
+      />
+      <img
+        src="12.jpg"
       />
     </div>
   </div>

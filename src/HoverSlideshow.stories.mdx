@@ -1,0 +1,70 @@
+import {
+	Meta,
+	Story,
+	Preview,
+	Props,
+	Description
+} from "@storybook/addon-docs/blocks";
+import HoverSlideshow from "./HoverSlideshow";
+
+<Meta title="Demos|HoverSlideshow" component={HoverSlideshow} />
+
+# HoverSlideshow
+
+<br />
+
+## Description
+
+<Description of={HoverSlideshow} />
+
+## Props
+
+<Props of={HoverSlideshow} />
+
+## Preview
+
+<Preview>
+	<Story name="default (horizontal axis)">
+		<HoverSlideshow
+			aria-label="Muybridge horse gallop slideshow"
+			width="410px"
+			height="308px"
+			images={[
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/01.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/02.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/03.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/04.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/05.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/06.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/07.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/08.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/09.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/10.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/11.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/12.jpg"
+			]}
+		/>
+	</Story>
+	<Story name="vertical axis">
+		<HoverSlideshow
+			axis="vertical"
+			aria-label="Muybridge horse gallop slideshow"
+			width="410px"
+			height="308px"
+			images={[
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/01.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/02.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/03.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/04.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/05.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/06.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/07.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/08.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/09.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/10.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/11.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/12.jpg"
+			]}
+		/>
+	</Story>
+</Preview>

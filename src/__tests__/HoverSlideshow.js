@@ -34,7 +34,7 @@ const axes = ["horizontal", "vertical"];
 const imageSets = [imageSet1, imageSet2];
 const dimensions = [100, 200, 233];
 const percentages = [0, 20, 50, 100];
-const eventTypes = ["mousemove", "touchmove"];
+const eventTypes = ["mousemove", "touchmove", "touchstart"];
 
 dimensions.forEach(pixels => {
   describe(`${pixels} pixels`, () => {
@@ -74,6 +74,7 @@ dimensions.forEach(pixels => {
 
                     switch (eventType) {
                       case "touchmove":
+                      case "touchstart":
                         fireEvent.touchMove(slideshow, {
                           touches: [clientXOrYProps]
                         });
@@ -92,5 +93,26 @@ dimensions.forEach(pixels => {
         });
       });
     });
+  });
+});
+
+describe("Custom props", () => {
+  test("1", async () => {
+    const { container, getByLabelText } = render(
+      <HoverSlideshow
+        aria-label="Foo"
+        axis="vertical"
+        className="fooClass"
+        images={imageSet1}
+        style={{ display: "inline-flex" }}
+        role="someRole"
+        width="50px"
+        height="50px"
+      />
+    );
+
+    const slideshow = await getByLabelText("Foo");
+
+    expect(container).toMatchSnapshot();
   });
 });

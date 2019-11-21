@@ -39,25 +39,3 @@ export const getIndexFromProgress = (progress, total) => {
 	return zeroIndex;
 };
 
-/**
- * Example:
- * createNumberedArray({length: 3});  // ['1', '2', '3']
- * createNumberedArray({length: 3, prefix: "foo/"});   // ['foo/1', 'foo/2', 'foo/3']
- * createNumberedArray({length: 3, intOutput: true});  // [1, 2, 3]
- */
-export const createNumberedArray = ({
-	length,
-	zeroIndexed = false,
-	targetValLength = `${length}`.length,
-	prefix = "",
-	suffix = "",
-	intOutput = false
-}) => {
-	const baseArr = [...Array(length).keys()];
-	const incrementer = zeroIndexed ? 0 : 1;
-
-	return baseArr.map((val, index) => {
-		const num = `${index + incrementer}`.padStart(targetValLength, "0");
-		return intOutput ? parseInt(num) : `${prefix}${num}${suffix}`;
-	});
-};

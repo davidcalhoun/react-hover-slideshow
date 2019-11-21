@@ -1,0 +1,49 @@
+import {
+	Meta,
+	Story,
+	Preview,
+	Props,
+	Description
+} from "@storybook/addon-docs/blocks";
+import HoverSlideshowAnimated from "./HoverSlideshowAnimated";
+import { createNumberedArray } from "./utils";
+
+<Meta title="Demos|HoverSlideshowAnimated" component={HoverSlideshowAnimated} />
+
+# HoverSlideshowAnimated
+
+<br />
+
+## Description
+
+<Description of={HoverSlideshowAnimated} />
+
+## Props
+
+<Props of={HoverSlideshowAnimated} />
+
+## Preview
+
+<Preview>
+	<Story name="default">
+		<HoverSlideshowAnimated
+			aria-label="Muybridge horse gallop slideshow"
+			width="410px"
+			height="308px"
+			images={[
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/01.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/02.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/03.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/04.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/05.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/06.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/07.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/08.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/09.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/10.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/11.jpg",
+				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/12.jpg"
+			]}
+		/>
+	</Story>
+</Preview>

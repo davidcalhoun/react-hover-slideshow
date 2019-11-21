@@ -3,10 +3,10 @@ import useCursorProgress from "./useCursorProgress";
 import { uuidv4, getIndexFromProgress } from "./utils";
 
 /**
- * React Hook that cycles through an image slideshow when the user hovers.
- * Example with a 2 image slideshow:
- * * Cursor on the left half of the element, first image is shown.
- * * Cursor on the right half of the element, second image is shown.
+ * React Hook that cycles through an image slideshow when the user hovers over a DOM node.
+ * Example with a 2 image array:
+ * - User's cursor is on the left half of the element, so currentImage is the first array item.
+ * - User's cursor is on the right half of the element, so currentImage is the last array item.
  */
 export default function useHoverSlideshow(images, axis = "horizontal") {
 	const initialState = {
@@ -29,16 +29,22 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 	let [xProgress, yProgress] = progress;
 
 	function setImage(shouldReset = false) {
-		let imageIndex;
-		if (shouldReset) {
-			imageIndex = 0;
-		} else {
+		let imageIndex = 0;
+
+		/**
+		 * If shouldReset is false (default), then the user is actively interacting with the DOM
+		 * element, so we need to recompute currentImage based on cursor/touch position.
+		 */
+		if (!shouldReset) {
 			imageIndex =
 				axis === "horizontal"
 					? getIndexFromProgress(xProgress, images.length)
 					: getIndexFromProgress(yProgress, images.length);
 		}
 
+		/**
+		 * No need to update if the image index is unchanged.
+		 */
 		const indexChanged = imageIndex !== currentImageIndex;
 		if (indexChanged) {
 			setImageState({
@@ -61,7 +67,7 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 		}
 	}
 
-	// Responds to x,y progress side effects.
+	// Responds to x,y cursor progress side effects.
 	useEffect(() => {
 		setImage();
 	}, [xProgress, yProgress]);

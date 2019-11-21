@@ -26,14 +26,10 @@ module.exports = async ({ config, mode }) => {
         }
       }
     ],
-    include: path.resolve(__dirname, '../src'),
-  });
-
-  // Needed for addon-storysource
-  config.module.rules.push({
-    test: /\.stories\.jsx?$/,
-    loaders: [require.resolve('@storybook/source-loader')],
-    enforce: 'pre',
+    include: [
+      path.resolve(__dirname, '../src'),
+      path.resolve(__dirname, '../node_modules/@storybook/addon-info'),
+    ]
   });
 
   return config;

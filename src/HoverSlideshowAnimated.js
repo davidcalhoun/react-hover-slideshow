@@ -4,6 +4,13 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
 
+/**
+ * Cycles through an image slideshow on cursor/touch movement across an image.  Uses CSS transitions to achieve a crossfade effect.
+ *
+ * Note: this component depends on the optional peer dependency `react-transition-group`, which can be installed with this command:
+ *
+ * ```npm i --save react-transition-group```
+ */
 export default function HoverSlideshowAnimated(props) {
 	const { images, style, className, href, width, height } = props;
 	let [
@@ -24,10 +31,12 @@ export default function HoverSlideshowAnimated(props) {
 				onMouseMove={updateHoverSlideshow}
 				style={{
 					width,
-					height
+					height,
+					...style
 				}}
+				className={`${ styles.container } ${ className }`}
 			>
-				<TransitionGroup className={styles.container}>
+				<TransitionGroup>
 					<CSSTransition
 						timeout={300}
 						classNames={{
@@ -53,12 +62,22 @@ export default function HoverSlideshowAnimated(props) {
 }
 
 HoverSlideshowAnimated.propTypes = {
-	images: PropTypes.arrayOf(PropTypes.string),
-	style: PropTypes.object,
+	/** Additional CSS classnames to add to the root container. */
 	className: PropTypes.string,
-	href: PropTypes.string
+	/** Height of the container, e.g. "100px" */
+	height: PropTypes.string,
+	/** Optional href to add to anchor wrapper. */
+	href: PropTypes.string,
+	/** Array of image hrefs. */
+	images: PropTypes.arrayOf(PropTypes.string),
+	/** Custom CSS style overrides. */
+	style: PropTypes.object,
+	/** Width of the container, e.g. "100px" */
+	width: PropTypes.string
 };
 
 HoverSlideshowAnimated.defaultProps = {
-	images: []
+	className: "",
+	images: [],
+	style: {}
 };
