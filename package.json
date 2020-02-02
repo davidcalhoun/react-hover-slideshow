@@ -11,7 +11,9 @@
     "storybook-publish": "npm run build-storybook && cp -r .storybook-out/* ../davidcalhoun.github.io/react-hover-slideshow/ && cd ../davidcalhoun.github.io/react-hover-slideshow/",
     "test": "jest --verbose",
     "prepare": "npm run build",
-    "publish-minor": "npm version minor && git push && git push --tags && npm publish"
+    "publish-patch": "npm version patch && git push && git push --tags && npm publish",
+    "publish-minor": "npm version minor && git push && git push --tags && npm publish",
+    "publish-major": "npm version major && git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
