@@ -52,7 +52,7 @@ export default function HoverSlideshowAnimated(props) {
 						key={currentImageEventId}
 					>
 						<div className={styles.imageContainer}>
-							<img src={currentImage} />
+							<img src={currentImage} className={styles.img} />
 						</div>
 					</CSSTransition>
 				</TransitionGroup>

@@ -52,7 +52,7 @@ export default function HoverSlideshow(props) {
 				}}
 			>
 				{images.map((src, index) => {
-					return <img src={src} key={src} />;
+					return <img src={src} key={src} className={styles.img} />;
 				})}
 			</div>
 		</div>
