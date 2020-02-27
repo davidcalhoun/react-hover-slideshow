@@ -13,39 +13,51 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -66,39 +78,51 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -119,39 +143,51 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -172,39 +208,51 @@ exports[`100 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -225,39 +273,51 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -278,39 +338,51 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -331,39 +403,51 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -384,39 +468,51 @@ exports[`100 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -437,39 +533,51 @@ exports[`100 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -490,39 +598,51 @@ exports[`100 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -543,39 +663,51 @@ exports[`100 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -596,39 +728,51 @@ exports[`100 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -649,39 +793,51 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -702,39 +858,51 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -755,39 +923,51 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -808,39 +988,51 @@ exports[`100 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -861,39 +1053,51 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -914,39 +1118,51 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -967,39 +1183,51 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1020,39 +1248,51 @@ exports[`100 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1073,39 +1313,51 @@ exports[`100 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1126,39 +1378,51 @@ exports[`100 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1179,39 +1443,51 @@ exports[`100 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-500px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1232,39 +1508,51 @@ exports[`100 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-1100px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -1285,24 +1573,31 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1323,24 +1618,31 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1361,24 +1663,31 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1399,24 +1708,31 @@ exports[`100 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1437,24 +1753,31 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1475,24 +1798,31 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1513,24 +1843,31 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1551,24 +1888,31 @@ exports[`100 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1589,24 +1933,31 @@ exports[`100 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1627,24 +1978,31 @@ exports[`100 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1665,24 +2023,31 @@ exports[`100 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1703,24 +2068,31 @@ exports[`100 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1741,24 +2113,31 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1779,24 +2158,31 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1817,24 +2203,31 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1855,24 +2248,31 @@ exports[`100 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1893,24 +2293,31 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1931,24 +2338,31 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -1969,24 +2383,31 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2007,24 +2428,31 @@ exports[`100 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2045,24 +2473,31 @@ exports[`100 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2083,24 +2518,31 @@ exports[`100 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-100px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2121,24 +2563,31 @@ exports[`100 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-300px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2159,24 +2608,31 @@ exports[`100 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -2197,39 +2653,51 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2250,39 +2718,51 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2303,39 +2783,51 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2356,39 +2848,51 @@ exports[`200 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2409,39 +2913,51 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2462,39 +2978,51 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2515,39 +3043,51 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2568,39 +3108,51 @@ exports[`200 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2621,39 +3173,51 @@ exports[`200 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2674,39 +3238,51 @@ exports[`200 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2727,39 +3303,51 @@ exports[`200 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2780,39 +3368,51 @@ exports[`200 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2833,39 +3433,51 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2886,39 +3498,51 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2939,39 +3563,51 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -2992,39 +3628,51 @@ exports[`200 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3045,39 +3693,51 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3098,39 +3758,51 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3151,39 +3823,51 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3204,39 +3888,51 @@ exports[`200 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3257,39 +3953,51 @@ exports[`200 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3310,39 +4018,51 @@ exports[`200 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-400px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3363,39 +4083,51 @@ exports[`200 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-1000px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3416,39 +4148,51 @@ exports[`200 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-2200px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -3469,24 +4213,31 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3507,24 +4258,31 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3545,24 +4303,31 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3583,24 +4348,31 @@ exports[`200 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3621,24 +4393,31 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3659,24 +4438,31 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3697,24 +4483,31 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3735,24 +4528,31 @@ exports[`200 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3773,24 +4573,31 @@ exports[`200 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3811,24 +4618,31 @@ exports[`200 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3849,24 +4663,31 @@ exports[`200 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3887,24 +4708,31 @@ exports[`200 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3925,24 +4753,31 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -3963,24 +4798,31 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4001,24 +4843,31 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4039,24 +4888,31 @@ exports[`200 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4077,24 +4933,31 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4115,24 +4978,31 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4153,24 +5023,31 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4191,24 +5068,31 @@ exports[`200 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4229,24 +5113,31 @@ exports[`200 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4267,24 +5158,31 @@ exports[`200 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4305,24 +5203,31 @@ exports[`200 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-600px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4343,24 +5248,31 @@ exports[`200 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-1200px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -4381,39 +5293,51 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4434,39 +5358,51 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4487,39 +5423,51 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4540,39 +5488,51 @@ exports[`233 pixels imageSet1 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4593,39 +5553,51 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4646,39 +5618,51 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4699,39 +5683,51 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4752,39 +5748,51 @@ exports[`233 pixels imageSet1 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4805,39 +5813,51 @@ exports[`233 pixels imageSet1 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4858,39 +5878,51 @@ exports[`233 pixels imageSet1 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4911,39 +5943,51 @@ exports[`233 pixels imageSet1 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -4964,39 +6008,51 @@ exports[`233 pixels imageSet1 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5017,39 +6073,51 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5070,39 +6138,51 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5123,39 +6203,51 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5176,39 +6268,51 @@ exports[`233 pixels imageSet1 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5229,39 +6333,51 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5282,39 +6398,51 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5335,39 +6463,51 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5388,39 +6528,51 @@ exports[`233 pixels imageSet1 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5441,39 +6593,51 @@ exports[`233 pixels imageSet1 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5494,39 +6658,51 @@ exports[`233 pixels imageSet1 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-466px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5547,39 +6723,51 @@ exports[`233 pixels imageSet1 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-1165px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5600,39 +6788,51 @@ exports[`233 pixels imageSet1 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-2563px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
@@ -5653,24 +6853,31 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5691,24 +6898,31 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5729,24 +6943,31 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5767,24 +6988,31 @@ exports[`233 pixels imageSet2 horizontal axis mousemove event 100 percent 1`] = 
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5805,24 +7033,31 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5843,24 +7078,31 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5881,24 +7123,31 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5919,24 +7168,31 @@ exports[`233 pixels imageSet2 horizontal axis touchmove event 100 percent 1`] = 
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5957,24 +7213,31 @@ exports[`233 pixels imageSet2 horizontal axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -5995,24 +7258,31 @@ exports[`233 pixels imageSet2 horizontal axis touchstart event 20 percent 1`] = 
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6033,24 +7303,31 @@ exports[`233 pixels imageSet2 horizontal axis touchstart event 50 percent 1`] = 
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6071,24 +7348,31 @@ exports[`233 pixels imageSet2 horizontal axis touchstart event 100 percent 1`] =
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6109,24 +7393,31 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6147,24 +7438,31 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 20 percent 1`] = `
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6185,24 +7483,31 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 50 percent 1`] = `
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6223,24 +7528,31 @@ exports[`233 pixels imageSet2 vertical axis mousemove event 100 percent 1`] = `
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6261,24 +7573,31 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6299,24 +7618,31 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 20 percent 1`] = `
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6337,24 +7663,31 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 50 percent 1`] = `
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6375,24 +7708,31 @@ exports[`233 pixels imageSet2 vertical axis touchmove event 100 percent 1`] = `
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6413,24 +7753,31 @@ exports[`233 pixels imageSet2 vertical axis touchstart event 0 percent 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6451,24 +7798,31 @@ exports[`233 pixels imageSet2 vertical axis touchstart event 20 percent 1`] = `
       style="transform: translateX(-233px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6489,24 +7843,31 @@ exports[`233 pixels imageSet2 vertical axis touchstart event 50 percent 1`] = `
       style="transform: translateX(-699px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6527,24 +7888,31 @@ exports[`233 pixels imageSet2 vertical axis touchstart event 100 percent 1`] = `
       style="transform: translateX(-1398px);"
     >
       <img
+        class="img"
         src="a.jpg"
       />
       <img
+        class="img"
         src="b.jpg"
       />
       <img
+        class="img"
         src="c.jpg"
       />
       <img
+        class="img"
         src="d.jpg"
       />
       <img
+        class="img"
         src="e.jpg"
       />
       <img
+        class="img"
         src="f.jpg"
       />
       <img
+        class="img"
         src="g.jpg"
       />
     </div>
@@ -6565,39 +7933,51 @@ exports[`Custom props 1 1`] = `
       style="transform: translateX(-0px);"
     >
       <img
+        class="img"
         src="01.jpg"
       />
       <img
+        class="img"
         src="02.jpg"
       />
       <img
+        class="img"
         src="03.jpg"
       />
       <img
+        class="img"
         src="04.jpg"
       />
       <img
+        class="img"
         src="05.jpg"
       />
       <img
+        class="img"
         src="06.jpg"
       />
       <img
+        class="img"
         src="07.jpg"
       />
       <img
+        class="img"
         src="08.jpg"
       />
       <img
+        class="img"
         src="09.jpg"
       />
       <img
+        class="img"
         src="10.jpg"
       />
       <img
+        class="img"
         src="11.jpg"
       />
       <img
+        class="img"
         src="12.jpg"
       />
     </div>
