@@ -116,3 +116,23 @@ describe("Custom props", () => {
     expect(container).toMatchSnapshot();
   });
 });
+
+describe("LoadingPlaceholder", () => {
+  test("1", async () => {
+    const { container, getByLabelText } = render(
+      <HoverSlideshow
+        aria-label="Foo"
+        axis="vertical"
+        className="fooClass"
+        images={imageSet1}
+        style={{ display: "inline-flex" }}
+        role="someRole"
+        width="50px"
+        height="50px"
+        LoadingPlaceholder={ ({ progressPercent }) => `${progressPercent}% loaded` }
+      />
+    );
+
+    expect(container).toMatchSnapshot();
+  });
+});

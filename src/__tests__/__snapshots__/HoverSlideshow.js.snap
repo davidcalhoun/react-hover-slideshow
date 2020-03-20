@@ -7984,3 +7984,80 @@ exports[`Custom props 1 1`] = `
   </div>
 </div>
 `;
+
+exports[`LoadingPlaceholder 1 1`] = `
+<div>
+  <div
+    aria-label="Foo"
+    class="container fooClass"
+    role="someRole"
+    style="width: 50px; height: 50px; display: inline-flex;"
+  >
+    <div
+      class="innerContainer"
+      style="transform: translateX(-0px);"
+    >
+      <img
+        class="img"
+        src="01.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="02.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="03.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="04.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="05.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="06.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="07.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="08.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="09.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="10.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="11.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+      <img
+        class="img"
+        src="12.jpg"
+        style="visibility: visible; opacity: 1;"
+      />
+    </div>
+  </div>
+</div>
+`;

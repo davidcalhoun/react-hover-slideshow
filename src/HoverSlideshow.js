@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshow.css";
@@ -18,16 +18,36 @@ export default function HoverSlideshow(props) {
 		height,
 		style,
 		className,
+		LoadingPlaceholder,
 		...otherProps
 	} = props;
 
 	let [
 		// Current image href, which will update on mousemove/touchmove
-		{ currentImage, currentImageIndex },
+		{ currentImageIndex },
 		// Update will recompute currentImage based on the user's cursor
 		// Reset assumes the user is no longer interacting, so it will return to the first (default) image
 		{ updateHoverSlideshow, resetHoverSlideshow }
 	] = useHoverSlideshow(images, axis);
+
+	const [loadProgress, setLoadProgress] = useState({
+		percent: 0,
+		totalLoaded: 0,
+		imagesLoaded: []
+	});
+
+	function handleLoad(image) {
+		setLoadProgress({
+			percent: parseInt(
+				((loadProgress.totalLoaded + 1) / images.length) * 100
+			),
+			totalLoaded: loadProgress.totalLoaded + 1,
+			imagesLoaded: [...loadProgress.imagesLoaded, image],
+			isLoading: loadProgress.totalLoaded + 1 < images.length
+		});
+	}
+
+	const showPlaceholder = loadProgress.isLoading && LoadingPlaceholder;
 
 	return (
 		<div
@@ -44,6 +64,9 @@ export default function HoverSlideshow(props) {
 			}}
 			{...otherProps}
 		>
+			{showPlaceholder && (
+				<LoadingPlaceholder progressPercent={loadProgress.percent} />
+			)}
 			<div
 				className={styles.innerContainer}
 				style={{
@@ -51,8 +74,25 @@ export default function HoverSlideshow(props) {
 						currentImageIndex}px)`
 				}}
 			>
-				{images.map((src, index) => {
-					return <img src={src} key={src} className={styles.img} />;
+				{images.map(src => {
+					const style = LoadingPlaceholder
+						? {
+								visibility: showPlaceholder
+									? "hidden"
+									: "visible",
+								opacity: showPlaceholder ? 0 : 1
+						  }
+						: {};
+
+					return (
+						<img
+							src={src}
+							key={src}
+							className={styles.img}
+							onLoad={handleLoad.bind(null, src)}
+							style={style}
+						/>
+					);
 				})}
 			</div>
 		</div>
@@ -70,6 +110,7 @@ HoverSlideshow.propTypes = {
 	height: PropTypes.string,
 	/** Array of image hrefs. */
 	images: PropTypes.arrayOf(PropTypes.string),
+	LoadingPlaceholder: PropTypes.elementType,
 	/** ARIA role to add to image container. */
 	role: PropTypes.string,
 	/** Custom CSS style overrides. */
