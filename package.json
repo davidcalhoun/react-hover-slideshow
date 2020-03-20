@@ -8,7 +8,6 @@
     "build": "rollup --config",
     "start": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
-    "storybook-publish": "npm run build-storybook && cp -r .storybook-out/* ../davidcalhoun.github.io/react-hover-slideshow/ && cd ../davidcalhoun.github.io/react-hover-slideshow/",
     "test": "jest --verbose",
     "prepare": "npm run build",
     "patch": "npm version patch && git push && git push --tags && npm publish",
