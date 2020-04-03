@@ -6,11 +6,15 @@ Iterates through an image slideshow based on cursor/touch position.
 
 ![Hover slideshow preview](https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/preview.gif)
 
+# Requirements
+* Node 10 and higher
+* React 16.8 and higher
+
 # Live demo
 See the [Storybook examples](https://davidcalhoun.github.io/react-hover-slideshow/index.html)
 
 # Installation
-`react-hover-slideshow` is distributed via [npm](https://www.npmjs.com/) which comes with [Node](https://nodejs.org/).  To install it as a dependency of your project, simply run:
+`react-hover-slideshow` is distributed via [npm](https://www.npmjs.com/) which comes with [Node](https://nodejs.org/).  To install it as a dependency of your project, simply navigate to your project directory and run:
 
 * `npm i --save react-hover-slideshow`
 
