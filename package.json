@@ -13,7 +13,7 @@
     "patch": "npm version patch && git push && git push --tags && npm publish",
     "minor": "npm version minor && git push && git push --tags && npm publish",
     "major": "npm version major && git push && git push --tags && npm publish",
-    "bump": "! npm outdated && npm update && npm audit fix"
+    "bump": "! npm outdated && npm update && npm audit fix || echo 'Package up to date'"
   },
   "repository": {
     "type": "git",
