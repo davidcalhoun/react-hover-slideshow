@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
+import useImgLoadProgress from "./useImgLoadProgress";
 
 /**
  * Cycles through an image slideshow on cursor/touch movement across an image.  Uses CSS transitions to achieve a crossfade effect.
@@ -12,11 +13,24 @@ import styles from "./HoverSlideshowAnimated.css";
  * ```npm i --save react-transition-group```
  */
 export default function HoverSlideshowAnimated(props) {
-	const { images, style, className, width, height, children, ...otherProps } = props;
+	const {
+		images,
+		style,
+		className,
+		width,
+		height,
+		children,
+		LoadingPlaceholder,
+		...otherProps
+	} = props;
 	let [
 		{ currentImage, currentImageEventId },
 		{ updateHoverSlideshow, resetHoverSlideshow },
 	] = useHoverSlideshow(images);
+
+	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
+
+	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
 	return (
 		<div
@@ -30,34 +44,59 @@ export default function HoverSlideshowAnimated(props) {
 			className={`${styles.container} ${className}`}
 			{...otherProps}
 		>
-			<picture>
-				<TransitionGroup>
-					<CSSTransition
-						timeout={300}
-						classNames={{
-							appear: styles["crossfade-appear"],
-							appearActive: styles["crossfade-appear-active"],
-							enter: styles["crossfade-enter"],
-							enterActive: styles["crossfade-enter-active"],
-							enterDone: styles["crossfade-enter-done"],
-							exit: styles["crossfade-exit"],
-							exitActive: styles["crossfade-exit-active"],
-							exitDone: styles["crossfade-exit-done"],
-						}}
-						key={currentImageEventId}
-					>
-						<div className={styles.imageContainer}>
-							<img src={currentImage} className={styles.img} />
-						</div>
-					</CSSTransition>
-				</TransitionGroup>
-			</picture>
-			{children}
+			<div className={styles.hiddenPreloadedImages}>
+				{images.map((src) => {
+					return (
+						<img
+							key={src}
+							src={src}
+							onLoad={handleImgLoad.bind(null, src)}
+						/>
+					);
+				})}
+			</div>
+			{showPlaceholder && (
+				<LoadingPlaceholder progressPercent={imgLoadProgress.percent} />
+			)}
+			{!showPlaceholder && (
+				<Fragment>
+					<picture>
+						<TransitionGroup>
+							<CSSTransition
+								timeout={300}
+								classNames={{
+									appear: styles["crossfade-appear"],
+									appearActive:
+										styles["crossfade-appear-active"],
+									enter: styles["crossfade-enter"],
+									enterActive:
+										styles["crossfade-enter-active"],
+									enterDone: styles["crossfade-enter-done"],
+									exit: styles["crossfade-exit"],
+									exitActive: styles["crossfade-exit-active"],
+									exitDone: styles["crossfade-exit-done"],
+								}}
+								key={currentImageEventId}
+							>
+								<div className={styles.imageContainer}>
+									<img
+										src={currentImage}
+										className={styles.img}
+									/>
+								</div>
+							</CSSTransition>
+						</TransitionGroup>
+					</picture>
+					{children}
+				</Fragment>
+			)}
 		</div>
 	);
 }
 
 HoverSlideshowAnimated.propTypes = {
+	/** Child elements.  Useful to display absolutely-positioned content over images. */
+	children: PropTypes.any,
 	/** Additional CSS classnames to add to the root container. */
 	className: PropTypes.string,
 	/** Height of the container, e.g. "100px" */
@@ -66,6 +105,8 @@ HoverSlideshowAnimated.propTypes = {
 	href: PropTypes.string,
 	/** Array of image hrefs. */
 	images: PropTypes.arrayOf(PropTypes.string),
+	/** Optional placeholder element to display while images load. */
+	LoadingPlaceholder: PropTypes.elementType,
 	/** Custom CSS style overrides. */
 	style: PropTypes.object,
 	/** Width of the container, e.g. "100px" */

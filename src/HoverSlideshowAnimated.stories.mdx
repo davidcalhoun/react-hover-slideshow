@@ -32,6 +32,7 @@ View the [story source](https://raw.githubusercontent.com/davidcalhoun/react-hov
 			aria-label="Muybridge horse gallop slideshow"
 			width="410px"
 			height="308px"
+			LoadingPlaceholder={ ({ progressPercent }) => `${progressPercent}% loaded` }
 			images={[
 				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/01.jpg",
 				"https://raw.githubusercontent.com/davidcalhoun/react-hover-slideshow/master/static/02.jpg",

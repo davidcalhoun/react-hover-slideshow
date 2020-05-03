@@ -7,6 +7,7 @@
   "scripts": {
     "build": "rollup --config",
     "start": "start-storybook",
+    "dev": "npm start",
     "build-storybook": "build-storybook -c .storybook -o .storybook-out",
     "test": "jest --verbose",
     "prepare": "npm run build",

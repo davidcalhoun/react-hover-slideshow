@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshow.css";
+import useImgLoadProgress from "./useImgLoadProgress";
 
 /**
  * TODO: support images array of objects, to support alt titles for each image.
@@ -27,27 +28,12 @@ export default function HoverSlideshow(props) {
 		{ currentImageIndex },
 		// Update will recompute currentImage based on the user's cursor
 		// Reset assumes the user is no longer interacting, so it will return to the first (default) image
-		{ updateHoverSlideshow, resetHoverSlideshow }
+		{ updateHoverSlideshow, resetHoverSlideshow },
 	] = useHoverSlideshow(images, axis);
 
-	const [loadProgress, setLoadProgress] = useState({
-		percent: 0,
-		totalLoaded: 0,
-		imagesLoaded: []
-	});
+	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
 
-	function handleLoad(image) {
-		setLoadProgress({
-			percent: parseInt(
-				((loadProgress.totalLoaded + 1) / images.length) * 100
-			),
-			totalLoaded: loadProgress.totalLoaded + 1,
-			imagesLoaded: [...loadProgress.imagesLoaded, image],
-			isLoading: loadProgress.totalLoaded + 1 < images.length
-		});
-	}
-
-	const showPlaceholder = loadProgress.isLoading && LoadingPlaceholder;
+	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
 	return (
 		<div
@@ -60,27 +46,28 @@ export default function HoverSlideshow(props) {
 			style={{
 				width,
 				height,
-				...style
+				...style,
 			}}
 			{...otherProps}
 		>
 			{showPlaceholder && (
-				<LoadingPlaceholder progressPercent={loadProgress.percent} />
+				<LoadingPlaceholder progressPercent={imgLoadProgress.percent} />
 			)}
 			<div
 				className={styles.innerContainer}
 				style={{
-					transform: `translateX(-${parseInt(width) *
-						currentImageIndex}px)`
+					transform: `translateX(-${
+						parseInt(width) * currentImageIndex
+					}px)`,
 				}}
 			>
-				{images.map(src => {
+				{images.map((src) => {
 					const style = LoadingPlaceholder
 						? {
 								visibility: showPlaceholder
 									? "hidden"
 									: "visible",
-								opacity: showPlaceholder ? 0 : 1
+								opacity: showPlaceholder ? 0 : 1,
 						  }
 						: {};
 
@@ -89,7 +76,7 @@ export default function HoverSlideshow(props) {
 							src={src}
 							key={src}
 							className={styles.img}
-							onLoad={handleLoad.bind(null, src)}
+							onLoad={handleImgLoad.bind(null, src)}
 							style={style}
 						/>
 					);
@@ -104,19 +91,22 @@ HoverSlideshow.propTypes = {
 	"aria-label": PropTypes.string,
 	/** Axis to monitor cursor/touch "progress" on. */
 	axis: PropTypes.oneOf(["horizontal", "vertical"]),
+	/** Child elements.  Useful to display absolutely-positioned content over images. */
+	children: PropTypes.any,
 	/** Additional CSS classnames to add to the root container. */
 	className: PropTypes.string,
 	/** Height of the container, e.g. "100px" */
 	height: PropTypes.string,
 	/** Array of image hrefs. */
 	images: PropTypes.arrayOf(PropTypes.string),
+	/** Optional placeholder element to display while images load. */
 	LoadingPlaceholder: PropTypes.elementType,
 	/** ARIA role to add to image container. */
 	role: PropTypes.string,
 	/** Custom CSS style overrides. */
 	style: PropTypes.object,
 	/** Width of the container, e.g. "100px" */
-	width: PropTypes.string
+	width: PropTypes.string,
 };
 
 HoverSlideshow.defaultProps = {
@@ -125,5 +115,5 @@ HoverSlideshow.defaultProps = {
 	className: "",
 	images: [],
 	role: "img",
-	style: {}
+	style: {},
 };

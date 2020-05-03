@@ -12,7 +12,7 @@
 	position: relative;
 	white-space: pre;
 	will-change: transform;
-	transition: 0.001s ease-in-out;  /* HACK: fix for flickering seen on FF 70 */
+	transition: 0.001s ease-in-out; /* HACK: fix for flickering seen on FF 70 */
 }
 
 .img {

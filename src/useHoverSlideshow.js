@@ -13,7 +13,7 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 		currentImage: images[0],
 		previousImage: null,
 		currentImageIndex: 0,
-		previousImageIndex: null
+		previousImageIndex: null,
 	};
 	const [
 		{
@@ -21,9 +21,9 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 			previousImage,
 			currentImageIndex,
 			previousImageIndex,
-			currentImageEventId
+			currentImageEventId,
 		},
-		setImageState
+		setImageState,
 	] = useState(initialState);
 	const [progress, setCursorProgress] = useCursorProgress();
 	let [xProgress, yProgress] = progress;
@@ -59,10 +59,10 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 				currentImageEventId: uuidv4(),
 				previousImageIndex: currentImageIndex,
 				previousImage:
-					typeof previousImageIndex !== "null"
+					previousImageIndex !== null
 						? images[currentImageIndex]
 						: null,
-				previousImageEventId: currentImageEventId
+				previousImageEventId: currentImageEventId,
 			});
 		}
 	}
@@ -78,11 +78,11 @@ export default function useHoverSlideshow(images, axis = "horizontal") {
 			currentImageIndex,
 			previousImage,
 			previousImageIndex,
-			currentImageEventId
+			currentImageEventId,
 		},
 		{
 			updateHoverSlideshow: setCursorProgress,
-			resetHoverSlideshow: () => setImage(true)
-		}
+			resetHoverSlideshow: () => setImage(true),
+		},
 	];
 }

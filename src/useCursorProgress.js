@@ -31,7 +31,7 @@ export default function useCursorProgress() {
 	const initialState = {
 		xProgress: 0,
 		yProgress: 0,
-		boundingClientRect: null
+		boundingClientRect: null,
 	};
 	let [{ xProgress, yProgress, boundingClientRect }, setProgress] = useState(
 		initialState
@@ -44,7 +44,10 @@ export default function useCursorProgress() {
 			syntheticEvent.preventDefault();
 		}
 
-		if (!syntheticEvent || !supportedEventTypes.includes(syntheticEvent.type)) {
+		if (
+			!syntheticEvent ||
+			!supportedEventTypes.includes(syntheticEvent.type)
+		) {
 			return;
 		}
 
@@ -55,7 +58,7 @@ export default function useCursorProgress() {
 		setProgress({
 			xProgress: getCursorProgress(syntheticEvent, "x", maybeCachedRect),
 			yProgress: getCursorProgress(syntheticEvent, "y", maybeCachedRect),
-			boundingClientRect: maybeCachedRect
+			boundingClientRect: maybeCachedRect,
 		});
 	}
 
