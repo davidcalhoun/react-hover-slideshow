@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
@@ -27,6 +27,8 @@ export default function HoverSlideshowAnimated(props) {
 		{ currentImage, currentImageEventId },
 		{ updateHoverSlideshow, resetHoverSlideshow },
 	] = useHoverSlideshow(images);
+	const nodeRef = useRef(null);
+	const [inProp, setInProp] = useState(false);
 
 	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
 
@@ -61,9 +63,12 @@ export default function HoverSlideshowAnimated(props) {
 			{!showPlaceholder && (
 				<Fragment>
 					<picture>
+						<React.StrictMode>
 						<TransitionGroup>
 							<CSSTransition
 								timeout={300}
+								in={inProp}
+								appear
 								classNames={{
 									appear: styles["crossfade-appear"],
 									appearActive:
@@ -77,8 +82,9 @@ export default function HoverSlideshowAnimated(props) {
 									exitDone: styles["crossfade-exit-done"],
 								}}
 								key={currentImageEventId}
+								nodeRef={nodeRef}
 							>
-								<div className={styles.imageContainer}>
+								<div className={styles.imageContainer} ref={nodeRef}>
 									<img
 										src={currentImage}
 										className={styles.img}
@@ -86,6 +92,7 @@ export default function HoverSlideshowAnimated(props) {
 								</div>
 							</CSSTransition>
 						</TransitionGroup>
+						</React.StrictMode>
 					</picture>
 					{children}
 				</Fragment>

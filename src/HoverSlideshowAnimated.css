@@ -11,19 +11,35 @@
 	max-width: 100%;
 }
 
-.crossfade-enter {
+.crossfade-appear {
 	opacity: 0;
+}
+
+.crossfade-appear-active {
+	opacity: 1;
+	transition: opacity 300ms;
 }
 
 .crossfade-enter-active {
 	opacity: 1;
-	transition: opacity 150ms ease-in-out;
+}
+
+.crossfade-enter-done {
+	opacity: 1;
+}
+
+.crossfade-exit {
+	opacity: 1;
 }
 
 .crossfade-exit-active {
 	opacity: 0;
-	transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms;
 }
+
+/*.crossfade-exit-done {
+	opacity: 0;
+}*/
 
 .img {
 	width: 100%;
