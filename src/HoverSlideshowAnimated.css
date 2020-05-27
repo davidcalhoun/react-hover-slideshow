@@ -17,11 +17,16 @@
 
 .crossfade-appear-active {
 	opacity: 1;
-	transition: opacity 300ms;
+	transition: opacity 100ms;
+}
+
+.crossfade-enter {
+	opacity: 0;
 }
 
 .crossfade-enter-active {
 	opacity: 1;
+	transition: opacity 200ms ease-in-out;
 }
 
 .crossfade-enter-done {
@@ -34,12 +39,8 @@
 
 .crossfade-exit-active {
 	opacity: 0;
-	transition: opacity 300ms;
+	transition: opacity 200ms ease-in-out;
 }
-
-/*.crossfade-exit-done {
-	opacity: 0;
-}*/
 
 .img {
 	width: 100%;

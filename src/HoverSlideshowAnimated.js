@@ -66,7 +66,7 @@ export default function HoverSlideshowAnimated(props) {
 						<React.StrictMode>
 						<TransitionGroup>
 							<CSSTransition
-								timeout={300}
+								timeout={150}
 								in={inProp}
 								appear
 								classNames={{
