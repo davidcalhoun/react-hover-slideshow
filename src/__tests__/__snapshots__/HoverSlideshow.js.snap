@@ -8000,62 +8000,62 @@ exports[`LoadingPlaceholder 1 1`] = `
       <img
         class="img"
         src="01.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="02.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="03.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="04.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="05.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="06.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="07.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="08.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="09.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="10.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="11.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
       <img
         class="img"
         src="12.jpg"
-        style="visibility: visible; opacity: 1;"
+        style="visibility: visible;"
       />
     </div>
   </div>

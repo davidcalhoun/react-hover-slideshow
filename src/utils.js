@@ -34,7 +34,12 @@ export const getPercentInt = (num, total) => {
  * getIndexFromProgress(10, 2); // 0
  */
 export const getIndexFromProgress = (progress, total) => {
-	const index = Math.ceil(total * (progress / 100));
+	let index = Math.ceil(total * (progress / 100));
+
+	if (index > total) {
+		index = total;
+	}
+
 	const zeroIndex = index !== 0 ? index - 1 : index;
 
 	return zeroIndex;

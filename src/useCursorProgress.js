@@ -53,7 +53,7 @@ export default function useCursorProgress() {
 
 		// Note: this hits the DOM a lot, but seems performant enough.  If all images are
 		// equally sized, this can possibly be cached in the future.
-		const maybeCachedRect = syntheticEvent.target.getBoundingClientRect();
+		const maybeCachedRect = syntheticEvent.currentTarget.getBoundingClientRect();
 
 		setProgress({
 			xProgress: getCursorProgress(syntheticEvent, "x", maybeCachedRect),

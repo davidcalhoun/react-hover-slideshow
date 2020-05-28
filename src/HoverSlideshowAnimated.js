@@ -1,9 +1,48 @@
-import React, { Fragment, useRef, useState } from "react";
+import React, { Fragment, useRef, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshowAnimated.css";
 import useImgLoadProgress from "./useImgLoadProgress";
+
+function Image(props) {
+	const nodeRef = useRef(null);
+
+	const { eventId, src, children } = props;
+
+	nodeRef?.current?.focus();
+
+	return (
+		<Fragment>
+			<picture>
+				<TransitionGroup>
+					<CSSTransition
+						timeout={150}
+						in
+						appear
+						classNames={{
+							appear: styles["crossfade-appear"],
+							appearActive: styles["crossfade-appear-active"],
+							enter: styles["crossfade-enter"],
+							enterActive: styles["crossfade-enter-active"],
+							enterDone: styles["crossfade-enter-done"],
+							exit: styles["crossfade-exit"],
+							exitActive: styles["crossfade-exit-active"],
+							exitDone: styles["crossfade-exit-done"],
+						}}
+						key={eventId}
+						nodeRef={nodeRef}
+					>
+						<div className={styles.imageContainer} ref={nodeRef}>
+							<img src={src} className={styles.img} />
+						</div>
+					</CSSTransition>
+				</TransitionGroup>
+			</picture>
+			{children}
+		</Fragment>
+	);
+}
 
 /**
  * Cycles through an image slideshow on cursor/touch movement across an image.  Uses CSS transitions to achieve a crossfade effect.
@@ -27,17 +66,24 @@ export default function HoverSlideshowAnimated(props) {
 		{ currentImage, currentImageEventId },
 		{ updateHoverSlideshow, resetHoverSlideshow },
 	] = useHoverSlideshow(images);
-	const nodeRef = useRef(null);
-	const [inProp, setInProp] = useState(false);
+	const containerRef = useRef(null);
 
 	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
 
 	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
+	function handleTouchMove(event) {
+		event.preventDefault();
+		updateHoverSlideshow(event);
+	}
+
 	return (
 		<div
 			onMouseLeave={resetHoverSlideshow}
 			onMouseMove={updateHoverSlideshow}
+			onTouchMove={handleTouchMove}
+			onTouchEnd={resetHoverSlideshow}
+			ref={containerRef}
 			style={{
 				width,
 				height,
@@ -61,41 +107,11 @@ export default function HoverSlideshowAnimated(props) {
 				<LoadingPlaceholder progressPercent={imgLoadProgress.percent} />
 			)}
 			{!showPlaceholder && (
-				<Fragment>
-					<picture>
-						<React.StrictMode>
-						<TransitionGroup>
-							<CSSTransition
-								timeout={150}
-								in={inProp}
-								appear
-								classNames={{
-									appear: styles["crossfade-appear"],
-									appearActive:
-										styles["crossfade-appear-active"],
-									enter: styles["crossfade-enter"],
-									enterActive:
-										styles["crossfade-enter-active"],
-									enterDone: styles["crossfade-enter-done"],
-									exit: styles["crossfade-exit"],
-									exitActive: styles["crossfade-exit-active"],
-									exitDone: styles["crossfade-exit-done"],
-								}}
-								key={currentImageEventId}
-								nodeRef={nodeRef}
-							>
-								<div className={styles.imageContainer} ref={nodeRef}>
-									<img
-										src={currentImage}
-										className={styles.img}
-									/>
-								</div>
-							</CSSTransition>
-						</TransitionGroup>
-						</React.StrictMode>
-					</picture>
-					{children}
-				</Fragment>
+				<Image
+					children={children}
+					eventId={currentImageEventId}
+					src={currentImage}
+				/>
 			)}
 		</div>
 	);

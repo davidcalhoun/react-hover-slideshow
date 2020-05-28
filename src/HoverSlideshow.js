@@ -25,7 +25,7 @@ export default function HoverSlideshow(props) {
 
 	let [
 		// Current image href, which will update on mousemove/touchmove
-		{ currentImageIndex },
+		{ currentImage, currentImageIndex },
 		// Update will recompute currentImage based on the user's cursor
 		// Reset assumes the user is no longer interacting, so it will return to the first (default) image
 		{ updateHoverSlideshow, resetHoverSlideshow },
@@ -35,12 +35,16 @@ export default function HoverSlideshow(props) {
 
 	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
+	function handleTouchMove(event) {
+		event.preventDefault();
+		updateHoverSlideshow(event);
+	}
+
 	return (
 		<div
 			onMouseLeave={resetHoverSlideshow}
 			onMouseMove={updateHoverSlideshow}
-			onTouchStart={updateHoverSlideshow}
-			onTouchMove={updateHoverSlideshow}
+			onTouchMove={handleTouchMove}
 			onTouchEnd={resetHoverSlideshow}
 			className={`${styles.container} ${className}`}
 			style={{
@@ -58,7 +62,7 @@ export default function HoverSlideshow(props) {
 				style={{
 					transform: `translateX(-${
 						parseInt(width) * currentImageIndex
-					}px)`,
+					}px)`
 				}}
 			>
 				{images.map((src) => {
@@ -66,8 +70,7 @@ export default function HoverSlideshow(props) {
 						? {
 								visibility: showPlaceholder
 									? "hidden"
-									: "visible",
-								opacity: showPlaceholder ? 0 : 1,
+									: "visible"
 						  }
 						: {};
 

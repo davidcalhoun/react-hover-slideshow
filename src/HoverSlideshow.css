@@ -10,14 +10,25 @@
 
 .innerContainer {
 	position: relative;
-	white-space: pre;
-	will-change: transform;
-	transition: 0.001s ease-in-out; /* HACK: fix for flickering seen on FF 70 */
+	white-space: nowrap;
+}
+
+@-moz-document url-prefix() {
+    .innerContainer {
+    	will-change: transform;
+    	transition: 0.01s transform ease-in-out; /* HACK: fix for flickering seen on FF 70-76+ */
+    }
 }
 
 .img {
 	width: 100%;
 	vertical-align: top;
-	transition: 0.2s opacity;
-	transition-delay: 1s;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+
+	/*
+	 * Mobile.  Important: need to move image to background so touch events occur on parent container,
+     * not inner changing imgs.
+	 */
+	z-index: -1;
 }

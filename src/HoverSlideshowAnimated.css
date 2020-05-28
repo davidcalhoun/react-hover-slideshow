@@ -9,6 +9,12 @@
 	left: 0;
 	display: flex;
 	max-width: 100%;
+
+	/*
+	 * Mobile.  Important: need to move image to background so touch events occur on parent container,
+     * not inner changing imgs.
+	 */
+	z-index: -1;
 }
 
 .crossfade-appear {
