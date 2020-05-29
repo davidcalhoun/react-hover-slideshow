@@ -8,7 +8,8 @@
 	top: 0;
 	left: 0;
 	display: flex;
-	max-width: 100%;
+	width: 100%;
+	height: 100;
 
 	/*
 	 * Mobile.  Important: need to move image to background so touch events occur on parent container,
