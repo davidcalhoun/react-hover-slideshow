@@ -72,7 +72,7 @@ export default function HoverSlideshowAnimated(props) {
 
 	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
-	function handleTouchMove(event) {
+	function handleTouch(event) {
 		event.preventDefault();
 		updateHoverSlideshow(event);
 	}
@@ -81,7 +81,8 @@ export default function HoverSlideshowAnimated(props) {
 		<div
 			onMouseLeave={resetHoverSlideshow}
 			onMouseMove={updateHoverSlideshow}
-			onTouchMove={handleTouchMove}
+			onTouchStart={handleTouch}
+			onTouchMove={handleTouch}
 			onTouchEnd={resetHoverSlideshow}
 			ref={containerRef}
 			style={{
