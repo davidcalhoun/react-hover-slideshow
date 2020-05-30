@@ -1,6 +1,6 @@
 {
   "name": "react-hover-slideshow",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Iterates through an image slideshow based on cursor position",
   "main": "dist/react-hover-slideshow.cjs.js",
   "module": "dist/react-hover-slideshow.esm.js",
