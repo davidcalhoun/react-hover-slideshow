@@ -82,6 +82,7 @@ export default function HoverSlideshow(props) {
 							className={styles.img}
 							onLoad={handleImgLoad.bind(null, src)}
 							style={style}
+							loading="eager"
 						/>
 					);
 				})}
