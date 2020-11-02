@@ -19,12 +19,7 @@ module.exports = async ({ config, mode }) => {
           importLoaders: 1
         }
       },
-      {
-        loader: 'postcss-loader',
-        options: {
-          plugins: () => [require('autoprefixer')]
-        }
-      }
+      'postcss-loader'
     ],
     include: [
       path.resolve(__dirname, '../src'),
