@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import useHoverSlideshow from "./useHoverSlideshow";
-import styles from "./HoverSlideshow.css";
+import styles from "./HoverSlideshow.module.css";
 import useImgLoadProgress from "./useImgLoadProgress";
+
+console.log(22, styles)
 
 /**
  * TODO: support images array of objects, to support alt titles for each image.

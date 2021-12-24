@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import useHoverSlideshow from "./useHoverSlideshow";
-import styles from "./HoverSlideshowAnimated.css";
+import styles from "./HoverSlideshowAnimated.module.css";
 import useImgLoadProgress from "./useImgLoadProgress";
 
 function Image(props) {
