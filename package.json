@@ -71,6 +71,10 @@
     "postcss": "^8.4.5",
     "postcss-modules": "^4.3.0"
   },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "optionalDependencies": {
     "react-transition-group": "^4.4.1"
   },
