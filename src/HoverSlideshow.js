@@ -4,8 +4,6 @@ import useHoverSlideshow from "./useHoverSlideshow";
 import styles from "./HoverSlideshow.module.css";
 import useImgLoadProgress from "./useImgLoadProgress";
 
-console.log(22, styles)
-
 /**
  * TODO: support images array of objects, to support alt titles for each image.
  */
@@ -25,6 +23,8 @@ export default function HoverSlideshow(props) {
 		...otherProps
 	} = props;
 
+	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
+
 	let [
 		// Current image href, which will update on mousemove/touchmove
 		{ currentImage, currentImageIndex },
@@ -32,8 +32,6 @@ export default function HoverSlideshow(props) {
 		// Reset assumes the user is no longer interacting, so it will return to the first (default) image
 		{ updateHoverSlideshow, resetHoverSlideshow },
 	] = useHoverSlideshow(images, axis);
-
-	const [imgLoadProgress, handleImgLoad] = useImgLoadProgress(images.length);
 
 	const showPlaceholder = imgLoadProgress.isLoading && LoadingPlaceholder;
 
@@ -82,7 +80,7 @@ export default function HoverSlideshow(props) {
 							src={src}
 							key={src}
 							className={styles.img}
-							onLoad={handleImgLoad.bind(null, src)}
+							onLoad={() => handleImgLoad(src)}
 							style={style}
 							loading="eager"
 						/>

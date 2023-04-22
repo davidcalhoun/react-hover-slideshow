@@ -6,15 +6,16 @@
   "module": "dist/react-hover-slideshow.esm.js",
   "scripts": {
     "build": "rollup --config",
-    "start": "start-storybook",
+    "start": "storybook dev -p 6006",
     "dev": "npm start",
-    "build-storybook": "build-storybook -c .storybook -o .storybook-out",
+    "build-storybook": "storybook build",
     "test": "jest --verbose",
     "prepare": "npm run build",
     "patch": "npm version patch && git push && git push --tags && npm publish",
     "minor": "npm version minor && git push && git push --tags && npm publish",
     "major": "npm version major && git push && git push --tags && npm publish",
-    "bump": "npm outdated & npm update && npm audit fix && npm test"
+    "bump": "npm outdated & npm update && npm audit fix && npm test",
+    "storybook": "storybook dev -p 6006"
   },
   "repository": {
     "type": "git",
@@ -36,12 +37,13 @@
     "@babel/plugin-proposal-export-default-from": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
-    "@storybook/addon-docs": "^6.4.9",
-    "@storybook/manager-webpack5": "^6.4.9",
-    "@storybook/react": "^6.4.9",
-    "@testing-library/dom": "^8.11.1",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
+    "@storybook/addon-essentials": "^7.0.6",
+    "@storybook/addon-interactions": "^7.0.6",
+    "@storybook/addon-links": "^7.0.6",
+    "@storybook/blocks": "^7.0.6",
+    "@storybook/react": "^7.0.6",
+    "@storybook/react-webpack5": "^7.0.6",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.4.5",
     "babel-loader": "^8.2.3",
@@ -53,23 +55,21 @@
     "postcss-loader": "^6.2.1",
     "prettier": "^2.5.1",
     "prop-types": "^15.8.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^2.61.1",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^7.0.6",
     "style-loader": "^3.3.1"
   },
   "dependencies": {
-    "@storybook/addon-essentials": "^6.4.9",
-    "@storybook/addon-postcss": "^2.0.0",
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "postcss": "^8.4.5",
     "postcss-modules": "^4.3.0"
-  },
-  "peerDependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   },
   "optionalDependencies": {
     "react-transition-group": "^4.4.1"
