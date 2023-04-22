@@ -1,5 +1,4 @@
 # react-hover-slideshow
-[![Build Status](https://travis-ci.org/davidcalhoun/react-hover-slideshow.svg?branch=master)](https://travis-ci.org/davidcalhoun/react-hover-slideshow)
 [![Downloads][downloads-image]][npm-url]
 
 Iterates through an image slideshow based on cursor/touch position.
