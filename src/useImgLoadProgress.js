@@ -11,13 +11,15 @@ export default function useImgLoadProgress(totalImages) {
 	});
 
 	function handleImgLoad(image) {
-		setLoadProgress({
-			percent: parseInt(
-				((loadProgress.totalLoaded + 1) / totalImages) * 100
-			),
-			totalLoaded: loadProgress.totalLoaded + 1,
-			imagesLoaded: [...loadProgress.imagesLoaded, image],
-			isLoading: loadProgress.totalLoaded + 1 < totalImages
+		setLoadProgress((prevLoadProgress) => {
+			return {
+				percent: parseInt(
+					((prevLoadProgress.totalLoaded + 1) / totalImages) * 100
+				),
+				totalLoaded: prevLoadProgress.totalLoaded + 1,
+				imagesLoaded: [...prevLoadProgress.imagesLoaded, image],
+				isLoading: prevLoadProgress.totalLoaded + 1 < totalImages
+			}
 		});
 	}
 

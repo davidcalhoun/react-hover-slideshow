@@ -4,6 +4,7 @@
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
+	user-select: none;
 	overflow: hidden;
 	position: relative;
 }
@@ -30,6 +31,7 @@
 	vertical-align: top;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
+	user-select: none;
 
 	/*
 	 * Mobile.  Important: need to move image to background so touch events occur on parent container,
